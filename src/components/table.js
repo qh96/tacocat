@@ -7,16 +7,7 @@ const { SearchBar } = Search;
 const { ToggleList } = ColumnToggle;
 
 function linkFormatter(cell, row) {
-  // if (row.onSale) {
-  //   return (
-  //     <span>
-  //       <strong style={ { color: 'red' } }>$ { cell } NTD(Sales!!)</strong>
-  //     </span>
-  //   );
-  // }
-
   return (
-    // <span>$ { cell } NTD</span>
     <span> <a href={cell}>Link</a></span>
     
   );

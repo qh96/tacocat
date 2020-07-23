@@ -8,7 +8,7 @@ const { LinkedinScraper, events, } = require("linkedin-jobs-scraper");
     // Concurrent queries will be runned on different pages within the same browser instance.
     const scraper = new LinkedinScraper({
         headless: true,
-        slowMo: 10,
+        slowMo: 100, // used to be 10
     });
 
     var res = {
@@ -112,15 +112,7 @@ const { LinkedinScraper, events, } = require("linkedin-jobs-scraper");
                 paginationMax: 2,
             }
         ),
-        // scraper.run(
-        //     ["Developer", "Software Engineer"],
-        //     ["San Francisco", "New York"],
-        //     {
-        //         paginationMax: 1,
-        //         descriptionProcessor,
-        //         optimize: true, // Block resources such as images, fonts etc to improve bandwidth usage
-        //     }
-        // )
+        
     ]);
 
     // Close browser

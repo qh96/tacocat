@@ -36,10 +36,8 @@ function App() {
 © 2020. All rights reserved.
 
     </Container>
-
+x
     </div>
-    
-   
    
   );
 }
