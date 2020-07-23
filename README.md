@@ -3,8 +3,9 @@
 
 Tacocat
 =====
-This is a platform for supporting the latest free software engineer job information for the new graduates.
-The keywords includes software grad, entry Software, Software university, Software graduate, Software college, junior developer.
+This is a platform supporting the latest free software engineer job information for the new graduates.
+The keywords includes software grad, entry Software, Software university, Software graduate, Software college, junior developer,
+will be used for LinkedIn job search.
 
 Temporarily supported by a hard-working [LinkedIn scraper](https://www.npmjs.com/package/linkedin-jobs-scraper), which works 996 and never sleep.
 **Only for self study purpose. No commercial usage allowed!!!**
@@ -25,7 +26,7 @@ I use is `Node 12.18` and `npm 6.14`.
 
 
 To display the website, run `npm start`. Then visit `localhost:3000` as default. To run the 
-scraper, simply `node index.js`, and wait for 2 minutes until page reloading.
+scraper, simply run `node index.js`, and wait for 2 minutes until page reloading.
 
 
 Work in Progress
