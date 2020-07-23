@@ -7,7 +7,7 @@ The keywords includes software grad, entry Software, Software university, Softwa
 will be used for LinkedIn job search.
 
 Temporarily supported by a hard-working [LinkedIn scraper](https://www.npmjs.com/package/linkedin-jobs-scraper), which works 996 and never sleep.
-**Only for self study purpose. No commercial usage allowed!!!**
+**Only for self study purpose. No commercial usage allowed**
 
 如果你感觉有用的话请帮忙 star~
 
