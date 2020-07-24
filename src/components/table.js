@@ -14,7 +14,7 @@ function linkFormatter(cell, row) {
   return (
     <span>
       <a href={cell} target="_blank">
-        Link
+        🔗 Link
       </a>
     </span>
   );

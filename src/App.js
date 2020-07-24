@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
 import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Table from "./components/table";
+import "./App.css";
+
 import {
   Container,
   Row,
@@ -20,7 +21,7 @@ import {
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="background-color-gray">
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand href="#home">🐈</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -34,20 +35,31 @@ class App extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Jumbotron className="text-center">
-          <h1>Tacocat</h1>
-          <p>
-            This is a platform for displaying the latest Software Engineer job
-            information to the new graduates. Supported by automatic
-            hard-working website scrapers targeting on LinkedIn & Indeed. This
-            website is only for self study purpose.{" "}
-            <b>No commercial usage permitted.</b>
-          </p>
-          <p>
-            <Button variant="primary" href="https://github.com/qh96/tacocat">
-              ⭐ Star
-            </Button>
-          </p>
+        <Jumbotron className="text-center background-color-white">
+          <Container>
+            <Row>
+              <Col></Col>
+              <Col xs={6}>
+                <h1 className="jumbotron-heading">🐈</h1>
+                <p className="lead ">
+                  Tacocat is a platform for displaying the latest Software
+                  Engineer job information to the new graduates. Supported by
+                  automatic running crawlers targeting on LinkedIn & Indeed.
+                  Only for self study purpose.{" "}
+                  <b>No commercial usage permitted.</b>
+                </p>
+                <p>
+                  <Button
+                    variant="outline-dark"
+                    href="https://github.com/qh96/tacocat"
+                  >
+                    ⭐ Star on Github
+                  </Button>
+                </p>
+              </Col>
+              <Col></Col>
+            </Row>
+          </Container>
         </Jumbotron>
         <Container>
           <Tabs>
