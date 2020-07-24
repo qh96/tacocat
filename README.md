@@ -2,6 +2,11 @@
 
 # Tacocat
 
+**Update 07/24**
+[Indeed-web-crawler](https://github.com/qh96/indeed-job-crawler/tree/develop) has been developed and is going to be in production soon!
+
+---
+
 This is a platform supporting the latest free software engineer job information for the new graduates.
 The keywords includes software grad, entry Software, Software university, Software graduate, Software college, junior developer,
 will be used for LinkedIn job search.
@@ -30,17 +35,11 @@ scraper, simply run `node crawler.js`, and wait for 2 minutes until page reloadi
 
 ## Work in Progress
 
-**Update 07/24**
-[Indeed-web-crawler](https://github.com/qh96/indeed-job-crawler/tree/develop) has been developed and is going to be in production soon!
-
----
-
-**Original 07/22**
-差异显示
-推送功能
-
----
-
 一开始是打算在 heroku 上部署自动化爬虫的，发现网站政策不允许，还未考虑配置服务器，暂时只能搁置。而且，
 不甚了解爬虫涉及到的法律问题，于是不做高频爬取，本项目也仅仅限于学习交流目的，请设置爬虫的`option`以
 延长爬取间隔，即`slowMo`，防止出现服务器宕机等其他影响。每天不定时更新网站，可以关注网站下面的爬取日期
+
+## TODO
+
+- 差异显示
+- 推送功能
