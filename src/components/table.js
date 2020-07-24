@@ -1,6 +1,6 @@
 import BootstrapTable from "react-bootstrap-table-next";
 import React from "react";
-import linkedin_data from "../output.json";
+import linkedin_data from "../linkedin_output.json";
 import indeed_data from "../indeed_output.json";
 import ToolkitProvider, {
   Search,
@@ -13,7 +13,9 @@ const { ToggleList } = ColumnToggle;
 function linkFormatter(cell, row) {
   return (
     <span>
-      <a href={cell}>Link</a>
+      <a href={cell} target="_blank">
+        Link
+      </a>
     </span>
   );
 }

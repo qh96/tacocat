@@ -57,7 +57,7 @@ const { LinkedinScraper, events } = require("linkedin-jobs-scraper");
     let fs = require("fs");
     let time = '{"time" : ' + '"' + new Date().toLocaleString() + '",';
     fs.writeFile(
-      "src/output.json",
+      "src/linkedin_output.json",
       time + '"data" : ' + JSON.stringify(res.table) + "}",
       "utf8",
       () => {}

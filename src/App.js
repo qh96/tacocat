@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <div>
         <Navbar bg="dark" variant="dark" expand="lg">
-          <Navbar.Brand href="#home">Tacocat</Navbar.Brand>
+          <Navbar.Brand href="#home">🐈</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -33,16 +33,17 @@ class App extends React.Component {
           </Navbar.Collapse>
         </Navbar>
         <Jumbotron className="text-center">
-          <h1>🐈!</h1>
+          <h1>Tacocat</h1>
           <p>
-            Tacocat is a platform for supporting the latest free software
-            engineer job information for the new graduates. Temporarily
-            supported by a hard-working LinkedIn scraper, which works 996 and
-            never sleep.
+            This is a platform for displaying the latest Software Engineer job
+            information to the new graduates. Supported by automatic
+            hard-working website scrapers targeting on LinkedIn & Indeed. This
+            website is only for self study purpose.{" "}
+            <b>No commercial usage permitted.</b>
           </p>
           <p>
             <Button variant="primary" href="https://github.com/qh96/tacocat">
-              Learn more
+              Contribute
             </Button>
           </p>
         </Jumbotron>
