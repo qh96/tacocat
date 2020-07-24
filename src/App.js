@@ -28,7 +28,9 @@ class App extends React.Component {
             <Nav className="mr-auto">
               <Nav.Link href="https://github.com/qh96/tacocat">About</Nav.Link>
               <Nav.Link href="#home">Contact</Nav.Link>
-              <Nav.Link href="#home">Like❤me</Nav.Link>
+              <Nav.Link href="https://github.com/qh96/tacocat">
+                Contribute
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -43,7 +45,7 @@ class App extends React.Component {
           </p>
           <p>
             <Button variant="primary" href="https://github.com/qh96/tacocat">
-              Contribute
+              ⭐ Star
             </Button>
           </p>
         </Jumbotron>

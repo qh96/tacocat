@@ -11,7 +11,8 @@ This is a platform supporting the latest free software engineer job information 
 The keywords include software grad, entry Software, Software university, Software graduate, Software college and junior developer,
 will be used for LinkedIn job search.
 
-Temporarily supported by a hard-working [LinkedIn scraper](https://www.npmjs.com/package/linkedin-jobs-scraper), which works 996 and never sleep.
+Supported by automatic hard-working website scrapers targeting on LinkedIn & Indeed.
+See [Indeed-web-crawler](https://github.com/qh96/indeed-job-crawler/tree/develop) and [LinkedIn scraper](https://www.npmjs.com/package/linkedin-jobs-scraper) for more details.
 **Only for self study purpose. No commercial usage permitted**
 
 如果你感觉有用的话请帮忙 star~
@@ -31,7 +32,7 @@ then run `npm install`. This will install some dependencies using npm. The Envir
 I use is `Node 12.18` and `npm 6.14`.
 
 To display the website, run `npm start`. Then visit `localhost:3000` as default. To run the
-scraper, simply run `node crawler.js`, and wait for 2 minutes until page reloading.
+scraper, simply run `node linkedin-crawler.js` and `node indeed-crawler.js`, and wait for 2 minutes until page reloading.
 
 ## Work in Progress
 
