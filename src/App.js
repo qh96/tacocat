@@ -60,6 +60,12 @@ class App extends React.Component {
           </Container>
         </Jumbotron>
         <div className="table py-5 bg-light">
+          <div className="table-header">
+            <div className="pulse-container">
+              <span className="pulse"></span>
+            </div>
+            <span className="pulse-right-span"> Updating Live</span>
+          </div>
           <Container className="bg-white px-4 py-4 border border-dark rounded">
             <Tabs>
               <Tab eventKey="linkedin" title="LinkedIn">
