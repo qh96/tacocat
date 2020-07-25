@@ -1,6 +1,6 @@
-import puppeteer from "puppeteer";
-import { EventEmitter } from "events";
-import fs from "fs";
+const puppeteer = require("puppeteer");
+const EventEmitter = require("events");
+const fs = require("fs");
 
 const states = {
   NOT_INITIALIZED: "notInitialized",
