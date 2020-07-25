@@ -1,0 +1,22 @@
+.search-label {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0;
+  border-color: black;
+}
+
+.form-control {
+  border-bottom: none;
+
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+
+.pagination {
+  float: right;
+}

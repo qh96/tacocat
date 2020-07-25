@@ -7,6 +7,8 @@ import ToolkitProvider, {
   ColumnToggle
 } from "react-bootstrap-table2-toolkit";
 import paginationFactory from "react-bootstrap-table2-paginator";
+import "./table.css";
+
 const { SearchBar } = Search;
 const { ToggleList } = ColumnToggle;
 
@@ -34,7 +36,9 @@ class Table extends React.Component {
     const data = this.props.source === "linkedin" ? linkedin_data : indeed_data;
     // console.log(this.props.source);
     return (
-      <div>
+      <div className="bg-white">
+        <div className="bg-white"></div>
+
         <ToolkitProvider
           keyField="id"
           data={data.data}

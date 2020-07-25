@@ -21,7 +21,7 @@ import {
 class App extends React.Component {
   render() {
     return (
-      <div className="background-color-gray">
+      <div>
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand href="#home">🐈</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,30 +30,28 @@ class App extends React.Component {
               <Nav.Link href="https://github.com/qh96/tacocat">About</Nav.Link>
               <Nav.Link href="#home">Contact</Nav.Link>
               <Nav.Link href="https://github.com/qh96/tacocat">
-                Contribute
+                ⭐ Star on Github
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Jumbotron className="text-center background-color-white">
+        <Jumbotron className="text-center">
           <Container>
             <Row>
               <Col></Col>
               <Col xs={6}>
-                <h1 className="jumbotron-heading">🐈</h1>
+                <h1 className="jumbotron-heading">Tacocat</h1>
                 <p className="lead ">
                   Tacocat is a platform for displaying the latest Software
                   Engineer job information to the new graduates. Supported by
                   automatic running crawlers targeting on LinkedIn & Indeed.
-                  Only for self study purpose.{" "}
-                  <b>No commercial usage permitted.</b>
                 </p>
                 <p>
                   <Button
                     variant="outline-dark"
                     href="https://github.com/qh96/tacocat"
                   >
-                    ⭐ Star on Github
+                    Contribute
                   </Button>
                 </p>
               </Col>
@@ -61,23 +59,23 @@ class App extends React.Component {
             </Row>
           </Container>
         </Jumbotron>
-        <Container>
-          <Tabs>
-            <Tab eventKey="linkedin" title="LinkedIn">
-              <div className="margin-bottom-1p5"></div>
-              <Table source="linkedin"></Table>
-            </Tab>
-            <Tab eventKey="indeed" title="Indeed">
-              <div className="margin-bottom-1p5"></div>
-              <Table source="indeed"></Table>
-            </Tab>
-          </Tabs>
-          <p>
-            © 2020. All rights reserved.{" "}
-            <a href="https://hits.seeyoufarm.com" />
-            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feattacocat.herokuapp.com" />
-          </p>
-        </Container>
+        <div className="table py-5 bg-light">
+          <Container className="bg-white px-4 py-4 border border-dark rounded">
+            <Tabs>
+              <Tab eventKey="linkedin" title="LinkedIn">
+                <Table source="linkedin"></Table>
+              </Tab>
+              <Tab eventKey="indeed" title="Indeed">
+                <Table source="indeed"></Table>
+              </Tab>
+            </Tabs>
+            <p className="my-5" style={{ textAlign: "center" }}>
+              © 2020. All rights reserved.{" "}
+              <a href="https://hits.seeyoufarm.com" />
+              <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feattacocat.herokuapp.com" />
+            </p>
+          </Container>
+        </div>
       </div>
     );
   }
