@@ -15,7 +15,7 @@ Supported by automatic hard-working website scrapers targeting on LinkedIn & Ind
 See [Indeed-web-crawler](https://github.com/qh96/indeed-job-crawler/tree/develop) and [LinkedIn scraper](https://www.npmjs.com/package/linkedin-jobs-scraper) for more details.
 **Only for self study purpose. No commercial usage permitted**
 
-多谢看官赏脸~🐶 求个 star~
+多谢看官赏脸 🐶 顺便求个 star🐶
 
 ## Demo
 
