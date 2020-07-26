@@ -12,6 +12,15 @@
   background-color: #f8f9fa !important;
 } */
 
+.btn_logo {
+  margin-left: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);

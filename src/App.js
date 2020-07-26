@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Table from "./components/table";
 import Companies from "./components/companies";
 import "./App.css";
+import github_logo from "./imgs/GitHub-Mark-64px.png";
 
 import {
   Container,
@@ -31,7 +32,7 @@ class App extends React.Component {
               <Nav.Link href="https://github.com/qh96/tacocat">About</Nav.Link>
               <Nav.Link href="#home">Contact</Nav.Link>
               <Nav.Link href="https://github.com/qh96/tacocat">
-                ⭐ Star on Github
+                Contribute
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -52,7 +53,8 @@ class App extends React.Component {
                     variant="outline-dark"
                     href="https://github.com/qh96/tacocat"
                   >
-                    Contribute
+                    Github
+                    <img className="btn_logo" src={github_logo} alt="" />
                   </Button>
                 </p>
               </Col>
