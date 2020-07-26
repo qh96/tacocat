@@ -20,3 +20,7 @@ label {
 .pagination {
   float: right;
 }
+
+#pageDropDown {
+  display: none;
+}

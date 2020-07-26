@@ -18,6 +18,12 @@ display:
 
 prod: run github-update-output
 
+heroku:
+	git add .
+	- git commit -a
+	git push origin master
+	git push heroku master
+
 	
 	
 	

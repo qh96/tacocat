@@ -22,4 +22,5 @@
 .clickable-span {
   color: gray;
   font-size: 0.75rem;
+  display: block;
 }
