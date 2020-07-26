@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Table from "./components/table";
+import Companies from "./components/companies";
 import "./App.css";
 
 import {
@@ -67,6 +68,9 @@ class App extends React.Component {
             <span className="pulse-right-span"> Updating Live</span>
           </div>
           <Container className="bg-white px-4 py-4 border border-dark rounded">
+            <div className="btn-tags">
+              <Companies></Companies>
+            </div>
             <Tabs>
               <Tab eventKey="linkedin" title="LinkedIn">
                 <Table source="linkedin"></Table>

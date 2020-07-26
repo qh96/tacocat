@@ -1,0 +1,20 @@
+.btn {
+  border-radius: 23px;
+}
+
+.companies-container {
+  text-align: left;
+}
+
+.companies-container .header {
+  margin-bottom: 0.5rem;
+}
+
+.companies-container .tags {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.companies-container .btn {
+  margin-right: 0.5rem;
+}
