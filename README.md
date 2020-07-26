@@ -2,6 +2,9 @@
 
 # Tacocat
 
+**Update 07/25**
+网页已静态添加已经 open new grad 岗位的公司列表. TODO: 动态
+
 **Update 07/24**
 [Indeed-web-crawler](https://github.com/qh96/indeed-job-crawler/tree/develop) has been developed and is going to be in production soon!
 
