@@ -18,3 +18,8 @@
 .companies-container .btn {
   margin-right: 0.5rem;
 }
+
+.clickable-span {
+  color: gray;
+  font-size: 0.75rem;
+}

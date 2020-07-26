@@ -30,12 +30,12 @@ Note that the column can be `sortable`. Nimbly to use `search` for better filter
 
 ## Usage
 
-To configure your system for development, first install Node.js and npm and
+To configure your system for development, first install Node.js, npm and make, and
 then run `npm install`. This will install some dependencies using npm. The Environment
 I use is `Node 12.18` and `npm 6.14`.
 
-To display the website, run `npm start`. Then visit `localhost:3000` as default. To run the
-scraper, simply run `node linkedin-crawler.js` and `node indeed-crawler.js`, and wait for 2 minutes until page reloading.
+To display the website, run `make display`. Then visit `localhost:3000` as default. To run the
+scraper, simply run `make run`, and wait for 60 seconds until page reloading.
 
 ## Work in Progress
 
