@@ -25,7 +25,9 @@ const companies = {
     "https://www.goldmansachs.com/careers/students/programs/americas/new-analyst-program.html",
   SAP:
     "https://jobs.sap.com/job/Palo-Alto-Silicon-Valley-Next-Talent-Rotational-Program-2021-Job-CA-94303/609822201/",
-  Asana: "https://boards.greenhouse.io/asana/jobs/2236571?gh_src=89bd80a91"
+  Asana: "https://boards.greenhouse.io/asana/jobs/2236571?gh_src=89bd80a91",
+  Cloudera:
+    "linkedin.com/jobs/view/software-engineer-hive-new-college-grad-at-cloudera-1940106406/?refId=d507d3e0-e1b7-4d3a-83b4-321a86ff8c4c&position=16&pageNum=0&trk=public_jobs_job-result-card_result-card_full-click"
 };
 
 class Companies extends React.Component {
