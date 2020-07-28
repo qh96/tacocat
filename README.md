@@ -2,6 +2,8 @@
 
 # Tacocat
 
+**Only for self study purpose. No commercial usage permitted**
+
 **Update 07/25**
 网页已静态添加已经 open new grad 岗位的公司列表. TODO: 动态
 
@@ -16,7 +18,6 @@ will be used for LinkedIn job search.
 
 Supported by automatic hard-working website scrapers targeting on LinkedIn & Indeed.
 See [Indeed-web-crawler](https://github.com/qh96/indeed-job-crawler/tree/develop) and [LinkedIn scraper](https://www.npmjs.com/package/linkedin-jobs-scraper) for more details.
-**Only for self study purpose. No commercial usage permitted**
 
 多谢看官赏脸 🐶 顺便求个 star🐶
 
