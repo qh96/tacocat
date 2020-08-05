@@ -25,7 +25,7 @@ class Companies extends React.Component {
       <div className="companies-container">
         <div className="header">
           <span>☆ Openings so far: </span>
-          <span className="clickable-span">Tip: Clickable with link 🔗</span>
+          {/* <span className="clickable-span">Tip: Clickable with link 🔗</span> */}
         </div>
         <div className="tags">
           {Object.keys(companies).map(item => (
