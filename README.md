@@ -19,7 +19,7 @@ will be used for LinkedIn job search.
 Supported by automatic hard-working website scrapers targeting on LinkedIn & Indeed.
 See [Indeed-web-crawler](https://github.com/qh96/indeed-job-crawler/tree/develop) and [LinkedIn scraper](https://www.npmjs.com/package/linkedin-jobs-scraper) for more details.
 
-多谢看官赏脸 🐶 顺便求个 star🐶
+<!-- 多谢看官赏脸 🐶 顺便求个 star🐶 -->
 
 ## Demo
 
